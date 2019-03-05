@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>window.IS_HOME = false;</script>
+    <meta charset="UTF-8">
+    <title>Foodissimo</title>
+    <script src="../base.js"></script>
+    <script src="../jquery.js"></script>
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <link rel="stylesheet" type="text/css" href="../base.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <div class="navbar">
+            <a href="../index.html" class="navbar-home">
+                <img src="../favicon.png" alt="~" height="48" style="margin-right: 10px;">
+                Foodissimo
+            </a> - &nbsp; preferintele utilizatorului &nbsp;<em id="username"></em>
+            <div id="meniu-dropdown-container">
+                <div id="meniu-dropdown">
+                    <div id="meniu-dropdown-button">Vezi meniu ▼</div>
+                    <div id="meniu-dropdown-content">
+
+                    </div>
+                </div>
+            </div>
+            <div id="current-time"></div>
+        </div>
+        <div id="placeholder-preferinte">Se incarca preferintele...</div>
+    </div>
+    <script src="incarca-preferinte.js"></script>
+</body>
+</html>

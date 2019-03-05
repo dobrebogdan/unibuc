@@ -1,0 +1,19 @@
+{
+  "name": "proiect-tw",
+  "version": "0.0.1",
+  "description": "Proiect Tehnici Web.",
+  "main": "index.html",
+  "scripts": {
+    "rollup": "cd src/ && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darius98/proiect-tw.git"
+  },
+  "author": "marian.darius98@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darius98/proiect-tw/issues"
+  },
+  "homepage": "https://github.com/darius98/proiect-tw#readme"
+}

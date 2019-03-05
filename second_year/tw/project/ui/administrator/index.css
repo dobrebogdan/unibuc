@@ -1,0 +1,49 @@
+#select-restaurant-container {
+    padding: 50px 20px 20px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#select-restaurant {
+    line-height: 2em;
+    height: 2em;
+    background: none;
+    border-radius: 5px;
+    padding: 0 7px;
+    margin-left: 10px;
+}
+
+#buton-compileaza-comanda {
+    font-size: 1.3em;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    border: none;
+    background-color: #b39ddb;
+    padding: 16px 12px;
+    border-radius: 5px;
+    transition: background-color 0.1s;
+}
+
+#buton-compileaza-comanda:hover,
+#buton-compileaza-comanda:focus {
+    background-color: #836fa9;
+}
+
+.tabel-comanda {
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+
+.tabel-comanda td {
+    padding: 2px;
+}
+
+.coloana-pret {
+    padding-left: 24px !important;
+    text-align: right;
+}
+
+.tabel-comanda-ultimul-rand td {
+    border-top: 1px solid black;
+}

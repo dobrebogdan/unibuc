@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>window.IS_HOME = true;</script>
+    <meta charset="UTF-8">
+    <title>Foodissimo</title>
+    <script src="base.js"></script>
+    <script src="jquery.js"></script>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <div class="navbar">
+            <a href="index.html" class="navbar-home">
+                <img src="favicon.png" alt="~" height="48" style="margin-right: 10px;">
+                Foodissimo
+            </a>
+            <div id="meniu-dropdown-container">
+                <div id="meniu-dropdown">
+                    <div id="meniu-dropdown-button">Vezi meniu ▼</div>
+                    <div id="meniu-dropdown-content">
+
+                    </div>
+                </div>
+            </div>
+            <div id="current-time"></div>
+        </div>
+
+        <div class="menu-button" id="admin-button">
+            <a class="menu-button-link" href="administrator/index.html">Administrator</a>
+        </div>
+
+        <div id="placeholder-utilizatori">Se incarca utilizatorii...</div>
+    </div>
+    <script src="incarca-utilizatori.js"></script>
+</body>
+</html>
