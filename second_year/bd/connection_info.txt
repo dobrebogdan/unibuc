@@ -1,5 +1,0 @@
-Hostname: 193.226.51.37
-Port: 1521
-SID: o11g
-Username: grupa35
-Password: grupa35
